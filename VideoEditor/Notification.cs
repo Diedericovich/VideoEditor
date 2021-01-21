@@ -1,19 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace VideoEditor
+﻿namespace VideoEditor
 {
-    class Notification
+    internal abstract class Notification
     {
-    public virtual void Send(string message)
-        {
-            Console.WriteLine(message);
-        }
-        
-
-       
-
-
+        public abstract void Send(string message);
     }
 }
